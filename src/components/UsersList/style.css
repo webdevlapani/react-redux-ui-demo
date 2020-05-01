@@ -1,0 +1,64 @@
+.user-appear {
+    opacity: 0.01;
+}
+.user-appear.user-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+.userlist-appear {
+    opacity: 0.01;
+}
+.userlist-appear.userlist-appear-active {
+    opacity: 1;
+    transition: opacity .5s ease-in;
+}
+.main-wrapper {
+    background: #fff;
+    height: 100vh;
+}
+.menubar ul {
+    padding-left: 0;
+}
+.menubar ul li {
+    list-style: none;
+    padding: 20px 12px 0;
+}
+.menubar ul li a {
+    font-family: Wigrum;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+}
+.menubar ul li a i:hover, .menubar ul li a:hover {
+    color: #CD845C;
+    cursor: pointer;
+}
+.main-wrapper .title {
+    font-family: Wigrum;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    color: #000000;
+}
+.main-wrapper .text {
+    font-family: Wigrum;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.75;
+}
+.profile-details {
+    height: calc(100vh - 175px);
+    overflow: auto;
+}
+@media screen and (max-width: 767px) {
+    .main-wrapper .menubar {
+        display: none;
+    }
+    .main-wrapper {
+        padding-top: 30px;
+    }
+}
